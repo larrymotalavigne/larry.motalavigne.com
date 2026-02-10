@@ -1,0 +1,109 @@
+@use '../../../styles/variables' as *;
+@use '../../../styles/mixins' as *;
+
+.blog {
+  padding: $spacing-3xl 0;
+
+  &__container {
+    @include container($max-width-content);
+  }
+
+  &__header {
+    margin-bottom: $spacing-2xl;
+  }
+
+  &__title {
+    font-size: 2.2rem;
+    margin-bottom: $spacing-sm;
+  }
+
+  &__subtitle {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+  }
+
+  &__filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $spacing-sm;
+    margin-bottom: $spacing-2xl;
+  }
+
+  &__filter-tag {
+    padding: $spacing-xs $spacing-md;
+    border-radius: $radius-xl;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    transition: all $transition-fast;
+
+    &:hover,
+    &.active {
+      color: var(--accent-primary);
+      border-color: var(--accent-primary);
+      background-color: var(--tag-bg);
+    }
+  }
+
+  &__posts {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-lg;
+  }
+
+  &__post-card {
+    @include card;
+    display: block;
+    padding: $spacing-lg;
+    color: var(--text-primary);
+  }
+
+  &__post-meta {
+    display: flex;
+    align-items: center;
+    gap: $spacing-md;
+    margin-bottom: $spacing-sm;
+  }
+
+  &__post-date {
+    color: var(--text-tertiary);
+    font-size: 0.85rem;
+  }
+
+  &__post-title {
+    font-size: 1.4rem;
+    margin-bottom: $spacing-sm;
+    transition: color $transition-fast;
+  }
+
+  &__post-card:hover &__post-title {
+    color: var(--accent-primary);
+  }
+
+  &__post-excerpt {
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: $spacing-md;
+  }
+
+  &__post-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $spacing-xs;
+    margin-bottom: $spacing-md;
+  }
+
+  &__read-more {
+    color: var(--accent-primary);
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+
+  &__empty {
+    color: var(--text-tertiary);
+    text-align: center;
+    padding: $spacing-3xl;
+  }
+}

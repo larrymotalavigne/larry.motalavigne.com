@@ -1,0 +1,31 @@
+@use '../../../styles/variables' as *;
+@use '../../../styles/mixins' as *;
+
+.footer {
+  border-top: 1px solid var(--border-color);
+  padding: $spacing-2xl 0;
+  margin-top: $spacing-4xl;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: $spacing-lg;
+    @include container($max-width-wide);
+  }
+
+  &__info {
+    text-align: center;
+  }
+
+  &__copyright {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+  }
+
+  &__built {
+    color: var(--text-tertiary);
+    font-size: 0.8rem;
+    margin-top: $spacing-xs;
+  }
+}

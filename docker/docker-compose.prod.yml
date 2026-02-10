@@ -1,0 +1,24 @@
+services:
+  larry-motalavigne:
+    image: ghcr.io/larrymotalavigne/larry-motalavigne-com:latest
+    container_name: larry-motalavigne
+    restart: unless-stopped
+    networks:
+      - larry-motalavigne
+
+  nginx:
+    image: nginx:alpine
+    container_name: larry-motalavigne-nginx
+    restart: unless-stopped
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      larry-motalavigne:
+        condition: service_healthy
+    networks:
+      - larry-motalavigne
+
+networks:
+  larry-motalavigne:
+    name: larry-motalavigne
+    driver: bridge

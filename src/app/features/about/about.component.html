@@ -1,0 +1,49 @@
+<section class="about">
+  <div class="about__container">
+    <div class="about__header" appScrollAnimate>
+      <h1 class="about__title">{{ 'ABOUT.TITLE' | translate }}</h1>
+    </div>
+
+    <div class="about__content">
+      <div class="about__bio" appScrollAnimate>
+        <div class="about__image">
+          <img src="assets/images/larry.jpg" alt="Larry Mota--Lavigne" loading="lazy" />
+        </div>
+        <div class="about__text">
+          <h2>{{ 'ABOUT.BIO_TITLE' | translate }}</h2>
+          <p>{{ 'ABOUT.BIO_P1' | translate }}</p>
+          <p>{{ 'ABOUT.BIO_P2' | translate }}</p>
+          <p>{{ 'ABOUT.BIO_P3' | translate }}</p>
+        </div>
+      </div>
+
+      <div class="about__skills" appScrollAnimate>
+        <h2>{{ 'ABOUT.SKILLS_TITLE' | translate }}</h2>
+        <div class="about__skills-grid">
+          @for (group of skills; track group.category) {
+            <div class="about__skill-group">
+              <h3>{{ group.category }}</h3>
+              <ul>
+                @for (item of group.items; track item) {
+                  <li>{{ item }}</li>
+                }
+              </ul>
+            </div>
+          }
+        </div>
+      </div>
+
+      <div class="about__info" appScrollAnimate>
+        <div class="about__info-card">
+          <h3>{{ 'ABOUT.LOCATION_TITLE' | translate }}</h3>
+          <p>{{ 'ABOUT.LOCATION' | translate }}</p>
+        </div>
+        <div class="about__info-card">
+          <h3>{{ 'ABOUT.CONTACT_TITLE' | translate }}</h3>
+          <p>{{ 'ABOUT.CONTACT_TEXT' | translate }}</p>
+          <app-social-links />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

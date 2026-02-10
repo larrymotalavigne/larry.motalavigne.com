@@ -1,0 +1,68 @@
+{
+  "NAV": {
+    "HOME": "Home",
+    "BLOG": "Blog",
+    "PROJECTS": "Projects",
+    "ABOUT": "About"
+  },
+  "HOME": {
+    "GREETING": "Hi, I'm",
+    "NAME": "Larry Mota--Lavigne",
+    "SUBTITLE": "Senior Python Developer",
+    "DESCRIPTION": "Passionate developer based in Tours, France. Specialized in Python, Java, and DevOps.",
+    "CTA_BLOG": "Read my blog",
+    "CTA_PROJECTS": "View my projects",
+    "SKILLS_TITLE": "Tech Stack",
+    "RECENT_POSTS_TITLE": "Recent Posts",
+    "FEATURED_PROJECTS_TITLE": "Projects",
+    "VIEW_ALL_POSTS": "View all posts",
+    "VIEW_ALL_PROJECTS": "View all projects"
+  },
+  "BLOG": {
+    "TITLE": "Blog",
+    "SUBTITLE": "Thoughts on development, tech and more.",
+    "READ_MORE": "Read more",
+    "READING_TIME": "min read",
+    "ALL_TAGS": "All",
+    "NO_POSTS": "No posts found.",
+    "PREV": "Previous",
+    "NEXT": "Next",
+    "PUBLISHED": "Published on",
+    "TAGS": "Tags"
+  },
+  "PROJECTS": {
+    "TITLE": "Projects",
+    "SUBTITLE": "A selection of my personal and professional projects.",
+    "VIEW_CODE": "Source code",
+    "VIEW_DEMO": "Demo",
+    "TECH_STACK": "Technologies",
+    "ALL_TECH": "All",
+    "NO_PROJECTS": "No projects found."
+  },
+  "ABOUT": {
+    "TITLE": "About",
+    "BIO_TITLE": "Who am I?",
+    "BIO_P1": "I'm Larry, a developer based in Tours (37), France.",
+    "BIO_P2": "My tech stack revolves around Python, Java, Angular/React, Docker/Kubernetes, and the DevOps approach.",
+    "BIO_P3": "Passionate about development best practices, software architecture, and automation.",
+    "SKILLS_TITLE": "Skills",
+    "LOCATION_TITLE": "Location",
+    "LOCATION": "Tours, France",
+    "CONTACT_TITLE": "Contact",
+    "CONTACT_TEXT": "Feel free to reach out via social media."
+  },
+  "FOOTER": {
+    "BUILT_WITH": "Built with Angular",
+    "COPYRIGHT": "Larry Mota--Lavigne"
+  },
+  "THEME": {
+    "TOGGLE": "Toggle theme",
+    "LIGHT": "Light",
+    "DARK": "Dark"
+  },
+  "LANG": {
+    "SWITCH": "Switch language",
+    "FR": "FR",
+    "EN": "EN"
+  }
+}

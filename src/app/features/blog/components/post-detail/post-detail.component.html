@@ -1,0 +1,44 @@
+@if (post(); as p) {
+  <article class="post-detail">
+    <div class="post-detail__container">
+      <header class="post-detail__header">
+        <a routerLink="/blog" class="post-detail__back">← {{ 'NAV.BLOG' | translate }}</a>
+        <h1 class="post-detail__title">{{ p.title }}</h1>
+        <div class="post-detail__meta">
+          <span class="post-detail__date">
+            {{ 'BLOG.PUBLISHED' | translate }} {{ p.date | dateFormat }}
+          </span>
+          <span class="post-detail__reading-time">
+            {{ markdownContent() | readingTime }} {{ 'BLOG.READING_TIME' | translate }}
+          </span>
+        </div>
+        @if (p.tags && p.tags.length > 0) {
+          <div class="post-detail__tags">
+            @for (tag of p.tags; track tag) {
+              <app-tag-badge [tag]="tag" />
+            }
+          </div>
+        }
+      </header>
+
+      <div class="post-detail__content markdown-body">
+        <markdown [data]="markdownContent()" />
+      </div>
+
+      <nav class="post-detail__nav">
+        @if (prevPost) {
+          <a [routerLink]="['/blog', prevPost.slug]" class="post-detail__nav-link post-detail__nav-link--prev">
+            <span class="post-detail__nav-label">{{ 'BLOG.PREV' | translate }}</span>
+            <span class="post-detail__nav-title">{{ prevPost.title }}</span>
+          </a>
+        }
+        @if (nextPost) {
+          <a [routerLink]="['/blog', nextPost.slug]" class="post-detail__nav-link post-detail__nav-link--next">
+            <span class="post-detail__nav-label">{{ 'BLOG.NEXT' | translate }}</span>
+            <span class="post-detail__nav-title">{{ nextPost.title }}</span>
+          </a>
+        }
+      </nav>
+    </div>
+  </article>
+}

@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "slug": "portfolio-angular",
+      "title": "Angular Portfolio",
+      "date": "2024-01-15",
+      "description": "My personal portfolio site built with Angular 19, SSR, and deployed with Docker.",
+      "tags": [],
+      "techStack": [
+        "Angular",
+        "TypeScript",
+        "SCSS",
+        "Docker",
+        "SSR"
+      ],
+      "github": "https://github.com/LarryMotaLavigne/larry.motalavigne.com",
+      "demo": "",
+      "featured": true,
+      "lang": "en"
+    },
+    {
+      "slug": "portfolio-angular",
+      "title": "Portfolio Angular",
+      "date": "2024-01-15",
+      "description": "Mon site portfolio personnel construit avec Angular 19, SSR, et deploye avec Docker.",
+      "tags": [],
+      "techStack": [
+        "Angular",
+        "TypeScript",
+        "SCSS",
+        "Docker",
+        "SSR"
+      ],
+      "github": "https://github.com/LarryMotaLavigne/larry.motalavigne.com",
+      "demo": "",
+      "featured": true,
+      "lang": "fr"
+    }
+  ]
+}

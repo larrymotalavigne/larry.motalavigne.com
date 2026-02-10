@@ -1,0 +1,34 @@
+{
+  "items": [
+    {
+      "slug": "hello-world",
+      "title": "Hello World",
+      "date": "2021-11-17",
+      "description": "Welcome to my blog! I introduce myself and explain why I created this blog.",
+      "tags": [
+        "introduction",
+        "personal"
+      ],
+      "techStack": [],
+      "github": "",
+      "demo": "",
+      "featured": true,
+      "lang": "en"
+    },
+    {
+      "slug": "hello-world",
+      "title": "Hello World",
+      "date": "2021-11-17",
+      "description": "Bienvenue sur mon blog ! Je me presente et explique pourquoi j'ai cree ce blog.",
+      "tags": [
+        "introduction",
+        "personnel"
+      ],
+      "techStack": [],
+      "github": "",
+      "demo": "",
+      "featured": true,
+      "lang": "fr"
+    }
+  ]
+}

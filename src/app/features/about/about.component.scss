@@ -1,0 +1,132 @@
+@use '../../../styles/variables' as *;
+@use '../../../styles/mixins' as *;
+
+.about {
+  padding: $spacing-3xl 0;
+
+  &__container {
+    @include container($max-width-content);
+  }
+
+  &__header {
+    margin-bottom: $spacing-2xl;
+  }
+
+  &__title {
+    font-size: 2.2rem;
+  }
+
+  &__bio {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-xl;
+    margin-bottom: $spacing-3xl;
+
+    @include tablet {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  }
+
+  &__image {
+    flex-shrink: 0;
+
+    img {
+      width: 160px;
+      height: 160px;
+      border-radius: $radius-full;
+      object-fit: cover;
+      border: 3px solid var(--accent-primary);
+    }
+  }
+
+  &__text {
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: $spacing-md;
+    }
+
+    p {
+      color: var(--text-secondary);
+      line-height: 1.7;
+      margin-bottom: $spacing-md;
+    }
+  }
+
+  &__skills {
+    margin-bottom: $spacing-3xl;
+
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: $spacing-lg;
+    }
+  }
+
+  &__skills-grid {
+    display: grid;
+    gap: $spacing-lg;
+    grid-template-columns: 1fr;
+
+    @include tablet {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include desktop {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  &__skill-group {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: $radius-lg;
+    padding: $spacing-lg;
+
+    h3 {
+      font-size: 1rem;
+      color: var(--accent-primary);
+      margin-bottom: $spacing-md;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    li {
+      color: var(--text-secondary);
+      padding: $spacing-xs 0;
+      font-size: 0.95rem;
+
+      &::before {
+        content: '→ ';
+        color: var(--accent-primary);
+      }
+    }
+  }
+
+  &__info {
+    display: grid;
+    gap: $spacing-lg;
+
+    @include tablet {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  &__info-card {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: $radius-lg;
+    padding: $spacing-lg;
+
+    h3 {
+      font-size: 1.1rem;
+      margin-bottom: $spacing-md;
+    }
+
+    p {
+      color: var(--text-secondary);
+      margin-bottom: $spacing-md;
+    }
+  }
+}

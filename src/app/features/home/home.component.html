@@ -1,0 +1,89 @@
+<!-- Hero Section -->
+<section class="hero">
+  <div class="hero__container">
+    <div class="hero__content">
+      <p class="hero__greeting">{{ 'HOME.GREETING' | translate }}</p>
+      <h1 class="hero__name">{{ 'HOME.NAME' | translate }}</h1>
+      <p class="hero__subtitle">{{ 'HOME.SUBTITLE' | translate }}</p>
+      <p class="hero__description">{{ 'HOME.DESCRIPTION' | translate }}</p>
+      <div class="hero__actions">
+        <a routerLink="/blog" class="hero__cta hero__cta--primary">
+          {{ 'HOME.CTA_BLOG' | translate }}
+        </a>
+        <a routerLink="/projects" class="hero__cta hero__cta--outline">
+          {{ 'HOME.CTA_PROJECTS' | translate }}
+        </a>
+      </div>
+      <app-social-links />
+    </div>
+    <div class="hero__image">
+      <img src="assets/images/larry.jpg" alt="Larry Mota--Lavigne" loading="eager" />
+    </div>
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section class="skills" appScrollAnimate>
+  <div class="skills__container">
+    <h2 class="section-title">{{ 'HOME.SKILLS_TITLE' | translate }}</h2>
+    <div class="skills__grid">
+      @for (skill of skills; track skill.name) {
+        <div class="skills__card">
+          <span class="skills__icon">{{ skill.icon }}</span>
+          <span class="skills__name">{{ skill.name }}</span>
+        </div>
+      }
+    </div>
+  </div>
+</section>
+
+<!-- Recent Posts -->
+@if (recentPosts.length > 0) {
+  <section class="recent-posts" appScrollAnimate>
+    <div class="recent-posts__container">
+      <h2 class="section-title">{{ 'HOME.RECENT_POSTS_TITLE' | translate }}</h2>
+      <div class="recent-posts__grid">
+        @for (post of recentPosts; track post.slug) {
+          <a [routerLink]="['/blog', post.slug]" class="post-card">
+            <h3 class="post-card__title">{{ post.title }}</h3>
+            <p class="post-card__date">{{ post.date | dateFormat }}</p>
+            <p class="post-card__description">{{ post.description }}</p>
+            <div class="post-card__tags">
+              @for (tag of post.tags; track tag) {
+                <app-tag-badge [tag]="tag" />
+              }
+            </div>
+          </a>
+        }
+      </div>
+      <a routerLink="/blog" class="section-link">
+        {{ 'HOME.VIEW_ALL_POSTS' | translate }} →
+      </a>
+    </div>
+  </section>
+}
+
+<!-- Featured Projects -->
+@if (featuredProjects.length > 0) {
+  <section class="featured-projects" appScrollAnimate>
+    <div class="featured-projects__container">
+      <h2 class="section-title">{{ 'HOME.FEATURED_PROJECTS_TITLE' | translate }}</h2>
+      <div class="featured-projects__grid">
+        @for (project of featuredProjects; track project.slug) {
+          <a [routerLink]="['/projects', project.slug]" class="project-card">
+            <h3 class="project-card__title">{{ project.title }}</h3>
+            <p class="project-card__description">{{ project.description }}</p>
+            <div class="project-card__tech">
+              @for (tech of project.techStack; track tech) {
+                <app-tag-badge [tag]="tech" />
+              }
+            </div>
+          </a>
+        }
+      </div>
+      <a routerLink="/projects" class="section-link">
+        {{ 'HOME.VIEW_ALL_PROJECTS' | translate }} →
+      </a>
+    </div>
+  </section>
+}

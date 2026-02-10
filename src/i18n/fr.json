@@ -1,0 +1,68 @@
+{
+  "NAV": {
+    "HOME": "Accueil",
+    "BLOG": "Articles",
+    "PROJECTS": "Projets",
+    "ABOUT": "À propos"
+  },
+  "HOME": {
+    "GREETING": "Bonjour, je suis",
+    "NAME": "Larry Mota--Lavigne",
+    "SUBTITLE": "Senior Python Developer",
+    "DESCRIPTION": "Développeur passionné basé à Tours, France. Spécialisé en Python, Java, et DevOps.",
+    "CTA_BLOG": "Lire mes articles",
+    "CTA_PROJECTS": "Voir mes projets",
+    "SKILLS_TITLE": "Stack Technique",
+    "RECENT_POSTS_TITLE": "Articles Récents",
+    "FEATURED_PROJECTS_TITLE": "Projets",
+    "VIEW_ALL_POSTS": "Voir tous les articles",
+    "VIEW_ALL_PROJECTS": "Voir tous les projets"
+  },
+  "BLOG": {
+    "TITLE": "Articles",
+    "SUBTITLE": "Réflexions sur le développement, la tech et plus encore.",
+    "READ_MORE": "Lire la suite",
+    "READING_TIME": "min de lecture",
+    "ALL_TAGS": "Tous",
+    "NO_POSTS": "Aucun article trouvé.",
+    "PREV": "Précédent",
+    "NEXT": "Suivant",
+    "PUBLISHED": "Publié le",
+    "TAGS": "Tags"
+  },
+  "PROJECTS": {
+    "TITLE": "Projets",
+    "SUBTITLE": "Une sélection de mes projets personnels et professionnels.",
+    "VIEW_CODE": "Code source",
+    "VIEW_DEMO": "Démo",
+    "TECH_STACK": "Technologies",
+    "ALL_TECH": "Toutes",
+    "NO_PROJECTS": "Aucun projet trouvé."
+  },
+  "ABOUT": {
+    "TITLE": "À propos",
+    "BIO_TITLE": "Qui suis-je ?",
+    "BIO_P1": "Je m'appelle Larry, et je suis développeur à Tours (37), France.",
+    "BIO_P2": "Ma stack technique s'oriente autour de Python, Java, Angular/React, Docker/Kubernetes, et l'approche DevOps.",
+    "BIO_P3": "Passionné par les bonnes pratiques de développement, l'architecture logicielle et l'automatisation.",
+    "SKILLS_TITLE": "Compétences",
+    "LOCATION_TITLE": "Localisation",
+    "LOCATION": "Tours, France",
+    "CONTACT_TITLE": "Contact",
+    "CONTACT_TEXT": "N'hésitez pas à me contacter via les réseaux sociaux."
+  },
+  "FOOTER": {
+    "BUILT_WITH": "Construit avec Angular",
+    "COPYRIGHT": "Larry Mota--Lavigne"
+  },
+  "THEME": {
+    "TOGGLE": "Changer de thème",
+    "LIGHT": "Clair",
+    "DARK": "Sombre"
+  },
+  "LANG": {
+    "SWITCH": "Changer de langue",
+    "FR": "FR",
+    "EN": "EN"
+  }
+}
