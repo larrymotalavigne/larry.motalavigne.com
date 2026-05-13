@@ -10,7 +10,7 @@ services:
       - larry-motalavigne
 
   nginx:
-    image: nginx:alpine
+    image: registry.gitlab.ggcorp.fr/internal/docker-cache/nginx:alpine
     container_name: larry-motalavigne-nginx
     restart: unless-stopped
     volumes:

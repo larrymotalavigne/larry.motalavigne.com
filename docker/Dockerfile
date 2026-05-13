@@ -1,5 +1,5 @@
 ### STAGE 1: Build ###
-FROM node:24-alpine AS build
+FROM registry.gitlab.ggcorp.fr/internal/docker-cache/node:24-alpine AS build
 
 WORKDIR /app
 
@@ -10,7 +10,7 @@ COPY . .
 RUN npm run build
 
 ### STAGE 2: Production SSR Server ###
-FROM node:24-alpine AS production
+FROM registry.gitlab.ggcorp.fr/internal/docker-cache/node:24-alpine AS production
 
 WORKDIR /app
 
