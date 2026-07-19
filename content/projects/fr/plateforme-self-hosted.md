@@ -17,7 +17,7 @@ physiques, un cluster k3s, et une règle : les données ne sortent pas.
 ## Ce qui tourne dessus
 
 - **GitLab complet** avec runners CI et registre de conteneurs
-- **Une trentaine de projets déployés**, dont trois SaaS en production
+- **Une trentaine de projets déployés**, dont deux SaaS en production
 - **GitOps de bout en bout** : chaque changement passe par git, Flux réconcilie
 - **Observabilité** : VictoriaMetrics, Loki, Grafana, alerting
 - **LLMs locaux** (Ollama) qui alimentent les fonctionnalités IA des apps

@@ -2,7 +2,7 @@
 
 > Site personnel de Larry Mota-Lavigne, ingénieur logiciel indépendant à Tours (France). Il opère seul un studio logiciel complet (Atom Studios) : SaaS en production, infrastructure self-hosted, sites pour TPE/PME. https://larry.motalavigne.com.
 
-Larry Mota-Lavigne est un ingénieur logiciel indépendant basé à Tours, en Centre-Val de Loire, fondateur du Groupe ATOM (ATOM STUDIOS / ATOM SERVICES). Il conçoit des systèmes logistiques pour un grand groupe international et opère en parallèle un studio solo d'une trentaine de projets, dont trois SaaS en production.
+Larry Mota-Lavigne est un ingénieur logiciel indépendant basé à Tours, en Centre-Val de Loire, fondateur du Groupe ATOM (ATOM STUDIOS / ATOM SERVICES). Il conçoit des systèmes logistiques pour un grand groupe international et opère en parallèle un studio solo d'une trentaine de projets, dont deux SaaS en production.
 
 ## À propos
 

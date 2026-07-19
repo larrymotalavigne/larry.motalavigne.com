@@ -42,7 +42,7 @@
   "ABOUT": {
     "TITLE": "À propos",
     "BIO_TITLE": "Qui suis-je ?",
-    "BIO_P1": "Je m'appelle Larry, ingénieur logiciel indépendant à Tours (37). Le jour, je conçois des systèmes logistiques pour un grand groupe international ; le reste du temps, je fais tourner Atom Studios, un studio solo : une trentaine de projets, dont trois SaaS en production.",
+    "BIO_P1": "Je m'appelle Larry, ingénieur logiciel indépendant à Tours (37). Le jour, je conçois des systèmes logistiques pour un grand groupe international ; le reste du temps, je fais tourner Atom Studios, un studio solo : une trentaine de projets, dont deux SaaS en production.",
     "BIO_P2": "Tout est auto-hébergé : GitLab, CI, cluster Kubernetes, modèles d'IA. Trois machines, zéro cloud — les données de mes utilisateurs ne quittent pas l'infrastructure. Stack : Python (FastAPI), Angular, PostgreSQL, k3s, Flux GitOps.",
     "BIO_P3": "Ma conviction : la rigueur d'une équipe plateforme est accessible à une seule personne, à condition que les machines fassent le travail répétable — déploiements auto-vérifiés avec rollback, sauvegardes prouvées par des restaurations réelles, tests de bout en bout chaque nuit. J'applique les mêmes standards aux sites que je livre aux TPE/PME.",
     "SKILLS_TITLE": "Compétences",

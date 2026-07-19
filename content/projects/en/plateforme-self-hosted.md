@@ -17,7 +17,7 @@ rule: data does not leave.
 ## What runs on it
 
 - **A full GitLab** with CI runners and a container registry
-- **About thirty deployed projects**, including three SaaS in production
+- **About thirty deployed projects**, including two SaaS in production
 - **End-to-end GitOps**: every change goes through git; Flux reconciles
 - **Observability**: VictoriaMetrics, Loki, Grafana, alerting
 - **Local LLMs** (Ollama) powering the apps' AI features

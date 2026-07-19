@@ -42,7 +42,7 @@
   "ABOUT": {
     "TITLE": "About",
     "BIO_TITLE": "Who am I?",
-    "BIO_P1": "I'm Larry, an independent software engineer in Tours, France. By day I build logistics systems for a large international group; the rest of the time I run Atom Studios, a solo studio: about thirty projects, including three SaaS products in production.",
+    "BIO_P1": "I'm Larry, an independent software engineer in Tours, France. By day I build logistics systems for a large international group; the rest of the time I run Atom Studios, a solo studio: about thirty projects, including two SaaS products in production.",
     "BIO_P2": "Everything is self-hosted: GitLab, CI, a Kubernetes cluster, AI models. Three machines, zero cloud — my users' data never leaves the infrastructure. Stack: Python (FastAPI), Angular, PostgreSQL, k3s, Flux GitOps.",
     "BIO_P3": "My conviction: platform-team rigor is within reach of a single person, provided machines do the repeatable work — self-verifying deployments with automatic rollback, backups proven by real restores, end-to-end tests every night. I apply the same standards to the websites I ship for small businesses.",
     "SKILLS_TITLE": "Skills",
