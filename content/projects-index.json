@@ -1,0 +1,154 @@
+{
+  "items": [
+    {
+      "slug": "easylocation",
+      "title": "EasyLocation — rental management SaaS",
+      "date": "2026-07-19",
+      "description": "French rental management for independent landlords: leases, inventories, rent receipts, payments — with an AI assistant that runs locally.",
+      "tags": [],
+      "techStack": [
+        "FastAPI",
+        "Angular",
+        "PostgreSQL",
+        "Stripe",
+        "Ollama",
+        "Kubernetes"
+      ],
+      "github": "",
+      "demo": "https://easylocation.fr",
+      "featured": true,
+      "lang": "en"
+    },
+    {
+      "slug": "plateforme-self-hosted",
+      "title": "A complete production platform, under a desk",
+      "date": "2026-07-19",
+      "description": "Three machines, one Kubernetes cluster, and everything a real platform needs: GitLab, CI, GitOps, monitoring, proven backups. Zero cloud.",
+      "tags": [],
+      "techStack": [
+        "Kubernetes",
+        "k3s",
+        "Flux",
+        "GitLab CI",
+        "Grafana",
+        "Velero",
+        "Ollama"
+      ],
+      "github": "",
+      "demo": "",
+      "featured": true,
+      "lang": "en"
+    },
+    {
+      "slug": "portfolio-angular",
+      "title": "Angular Portfolio",
+      "date": "2024-01-15",
+      "description": "My personal portfolio site built with Angular 19, SSR, and deployed with Docker.",
+      "tags": [],
+      "techStack": [
+        "Angular",
+        "TypeScript",
+        "SCSS",
+        "Docker",
+        "SSR"
+      ],
+      "github": "https://github.com/LarryMotaLavigne/larry.motalavigne.com",
+      "demo": "",
+      "featured": false,
+      "lang": "en"
+    },
+    {
+      "slug": "sites-tpe-pme",
+      "title": "Websites for small businesses — SaaS-grade rigor",
+      "date": "2026-07-19",
+      "description": "Showcase websites shipped through the same pipeline as my SaaS: tests, CI, TLS, monitoring. Designed, built and operated in Indre-et-Loire, France.",
+      "tags": [],
+      "techStack": [
+        "Angular",
+        "TypeScript",
+        "Kubernetes",
+        "GitLab CI",
+        "nginx"
+      ],
+      "github": "",
+      "demo": "https://atomservices.fr",
+      "featured": true,
+      "lang": "en"
+    },
+    {
+      "slug": "easylocation",
+      "title": "EasyLocation — SaaS de gestion locative",
+      "date": "2026-07-19",
+      "description": "La gestion locative française pour bailleurs indépendants : baux, états des lieux, quittances, paiements — avec un assistant IA qui tourne en local.",
+      "tags": [],
+      "techStack": [
+        "FastAPI",
+        "Angular",
+        "PostgreSQL",
+        "Stripe",
+        "Ollama",
+        "Kubernetes"
+      ],
+      "github": "",
+      "demo": "https://easylocation.fr",
+      "featured": true,
+      "lang": "fr"
+    },
+    {
+      "slug": "plateforme-self-hosted",
+      "title": "Une infrastructure de production complète, sous un bureau",
+      "date": "2026-07-19",
+      "description": "Trois machines, un cluster Kubernetes, et tout ce qui fait une vraie plateforme : GitLab, CI, GitOps, monitoring, sauvegardes prouvées. Zéro cloud.",
+      "tags": [],
+      "techStack": [
+        "Kubernetes",
+        "k3s",
+        "Flux",
+        "GitLab CI",
+        "Grafana",
+        "Velero",
+        "Ollama"
+      ],
+      "github": "",
+      "demo": "",
+      "featured": true,
+      "lang": "fr"
+    },
+    {
+      "slug": "portfolio-angular",
+      "title": "Portfolio Angular",
+      "date": "2024-01-15",
+      "description": "Mon site portfolio personnel construit avec Angular 19, SSR, et deploye avec Docker.",
+      "tags": [],
+      "techStack": [
+        "Angular",
+        "TypeScript",
+        "SCSS",
+        "Docker",
+        "SSR"
+      ],
+      "github": "https://github.com/LarryMotaLavigne/larry.motalavigne.com",
+      "demo": "",
+      "featured": false,
+      "lang": "fr"
+    },
+    {
+      "slug": "sites-tpe-pme",
+      "title": "Sites web pour TPE/PME — la rigueur d'un SaaS",
+      "date": "2026-07-19",
+      "description": "Des sites vitrines livrés avec le même pipeline que mes SaaS : tests, CI, TLS, monitoring. Conçus, construits et opérés en Indre-et-Loire.",
+      "tags": [],
+      "techStack": [
+        "Angular",
+        "TypeScript",
+        "Kubernetes",
+        "GitLab CI",
+        "nginx"
+      ],
+      "github": "",
+      "demo": "https://atomservices.fr",
+      "featured": true,
+      "lang": "fr"
+    }
+  ]
+}

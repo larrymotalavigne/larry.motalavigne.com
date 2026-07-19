@@ -1,0 +1,68 @@
+{
+  "NAV": {
+    "HOME": "Home",
+    "BLOG": "Blog",
+    "PROJECTS": "Projects",
+    "ABOUT": "About"
+  },
+  "HOME": {
+    "GREETING": "Hi, I'm",
+    "NAME": "Larry Mota--Lavigne",
+    "SUBTITLE": "Independent engineer — solo studio",
+    "DESCRIPTION": "I run a complete software studio on my own: SaaS in production, self-hosted infrastructure (Kubernetes, GitOps, local AI), and custom websites for small businesses. Based in Tours, France.",
+    "CTA_BLOG": "Read my blog",
+    "CTA_PROJECTS": "View my projects",
+    "SKILLS_TITLE": "Tech Stack",
+    "RECENT_POSTS_TITLE": "Recent Posts",
+    "FEATURED_PROJECTS_TITLE": "Projects",
+    "VIEW_ALL_POSTS": "View all posts",
+    "VIEW_ALL_PROJECTS": "View all projects"
+  },
+  "BLOG": {
+    "TITLE": "Blog",
+    "SUBTITLE": "Thoughts on development, tech and more.",
+    "READ_MORE": "Read more",
+    "READING_TIME": "min read",
+    "ALL_TAGS": "All",
+    "NO_POSTS": "No posts found.",
+    "PREV": "Previous",
+    "NEXT": "Next",
+    "PUBLISHED": "Published on",
+    "TAGS": "Tags"
+  },
+  "PROJECTS": {
+    "TITLE": "Projects",
+    "SUBTITLE": "A selection of my personal and professional projects.",
+    "VIEW_CODE": "Source code",
+    "VIEW_DEMO": "Demo",
+    "TECH_STACK": "Technologies",
+    "ALL_TECH": "All",
+    "NO_PROJECTS": "No projects found."
+  },
+  "ABOUT": {
+    "TITLE": "About",
+    "BIO_TITLE": "Who am I?",
+    "BIO_P1": "I'm Larry, an independent software engineer in Tours, France. By day I build logistics systems for a large international group; the rest of the time I run Atom Studios, a solo studio: about thirty projects, including three SaaS products in production.",
+    "BIO_P2": "Everything is self-hosted: GitLab, CI, a Kubernetes cluster, AI models. Three machines, zero cloud — my users' data never leaves the infrastructure. Stack: Python (FastAPI), Angular, PostgreSQL, k3s, Flux GitOps.",
+    "BIO_P3": "My conviction: platform-team rigor is within reach of a single person, provided machines do the repeatable work — self-verifying deployments with automatic rollback, backups proven by real restores, end-to-end tests every night. I apply the same standards to the websites I ship for small businesses.",
+    "SKILLS_TITLE": "Skills",
+    "LOCATION_TITLE": "Location",
+    "LOCATION": "Tours, France",
+    "CONTACT_TITLE": "Contact",
+    "CONTACT_TEXT": "Engineering mission, website, or business tool: larry.motalavigne@gmail.com — or via the networks below."
+  },
+  "FOOTER": {
+    "BUILT_WITH": "Built with Angular",
+    "COPYRIGHT": "Larry Mota--Lavigne"
+  },
+  "THEME": {
+    "TOGGLE": "Toggle theme",
+    "LIGHT": "Light",
+    "DARK": "Dark"
+  },
+  "LANG": {
+    "SWITCH": "Switch language",
+    "FR": "FR",
+    "EN": "EN"
+  }
+}
