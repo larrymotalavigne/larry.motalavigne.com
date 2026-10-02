@@ -1,0 +1,1 @@
+import{L as h,d as Eu,i as ri}from"./main-CV6SB7JI.js";var o=class n{languageService=h(ri);transform(e){if(!e)return``;let r=new Date(e),c=this.languageService.currentLang()===`fr`?`fr-FR`:`en-US`;return r.toLocaleDateString(c,{year:`numeric`,month:`long`,day:`numeric`})}static ɵfac=function(r){return new(r||n)};static ɵpipe=Eu({name:`dateFormat`,type:n,pure:!1})};export{o as t};

@@ -16,7 +16,7 @@ rule: data does not leave.
 
 ## What runs on it
 
-- **A full GitLab** with CI runners and a container registry
+- **CI runners and a build cache** (the GitLab server and the registry are hosted separately, on a friend's machine — still no public cloud)
 - **About thirty deployed projects**, including two SaaS in production
 - **End-to-end GitOps**: every change goes through git; Flux reconciles
 - **Observability**: VictoriaMetrics, Loki, Grafana, alerting

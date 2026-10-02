@@ -16,7 +16,7 @@ physiques, un cluster k3s, et une règle : les données ne sortent pas.
 
 ## Ce qui tourne dessus
 
-- **GitLab complet** avec runners CI et registre de conteneurs
+- **Runners CI et cache de build** (le serveur GitLab et le registre sont hébergés à part, sur une machine amie — pas de cloud public non plus)
 - **Une trentaine de projets déployés**, dont deux SaaS en production
 - **GitOps de bout en bout** : chaque changement passe par git, Flux réconcilie
 - **Observabilité** : VictoriaMetrics, Loki, Grafana, alerting
